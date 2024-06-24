@@ -16,15 +16,14 @@ public class AthleteService {
             .collect(Collectors.groupingBy(Athlete::getPays));
     }
 
-    public Map<String, Map<String, Map<String, List<NatModel>>>> groupBySportSexRound(List<NatModel> nats) {
+    public Map<String, Map<String, List<NatModel>>> groupBySportRound(List<NatModel> nats) {
         return nats.stream()
             .collect(Collectors.groupingBy(NatModel::getSport,
-                Collectors.groupingBy(NatModel::getSex,
-                    Collectors.groupingBy(NatModel::getRound,
-                        Collectors.collectingAndThen(Collectors.toList(), list -> {
-                            list.sort(Comparator.comparing(NatModel::getMark));
-                            return list;
-                        })))));
+                Collectors.groupingBy(NatModel::getRound,
+                    Collectors.collectingAndThen(Collectors.toList(), list -> {
+                        list.sort(Comparator.comparing(NatModel::getMark));
+                        return list;
+                    }))));
     }
 
 }
