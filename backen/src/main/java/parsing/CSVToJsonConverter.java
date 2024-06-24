@@ -1,12 +1,10 @@
 package parsing;
 
 import com.google.gson.Gson;
-import com.opencsv.bean.CsvToBeanBuilder;
 import model.Athlete;
-import model.Competitor;
+import model.NatModel;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,12 +13,12 @@ import java.util.List;
 public class CSVToJsonConverter {
 
     public String convertAthletes(String csvFilePath) throws IOException {
-        List<Athlete> athletes = mapToAthletes(csvFilePath);
+        List<Athlete> athletes = mapHistoricToAthletes(csvFilePath);
         Gson gson = new Gson();
         return gson.toJson(athletes);
     }
 
-    public static List<Athlete> mapToAthletes(String csvFilePath) throws IOException {
+    public static List<Athlete> mapHistoricToAthletes(String csvFilePath) throws IOException {
         List<Athlete> athletes;
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFilePath))) {
 
@@ -47,17 +45,31 @@ public class CSVToJsonConverter {
         return athletes;
     }
 
-    public String convertCompetitors(String csvFilePath) throws IOException {
-        List<Competitor> competitors = mapCompetitors(csvFilePath);
+    public List<NatModel> mapToNat(String csvFilePath) throws IOException {
+        List<NatModel> natList = new ArrayList<>();
 
-        Gson gson = new Gson();
-        return gson.toJson(competitors);
+        try (BufferedReader reader = new BufferedReader(new FileReader(csvFilePath))) {
+
+            String line = reader.readLine(); // header;
+            while ((line = reader.readLine()) != null) {
+                String[] values = line.split(",");
+                NatModel nat = new NatModel();
+                nat.setHour(values[1]);
+                nat.setRound(values[2]);
+                nat.setSport(values[3]);
+                nat.setName(values[4]);
+                nat.setSex(values[5]);
+                nat.setNat(values[6]);
+                nat.setPlace(values[7]);
+                nat.setMark(Double.valueOf(values[8]));
+                if (values.length > 9) {
+                    nat.setComments(values[9]);
+                }
+                natList.add(nat);
+            }
+        }
+        return natList;
     }
 
-    private static List<Competitor> mapCompetitors(String csvFilePath) throws FileNotFoundException {
-        return new CsvToBeanBuilder<Competitor>(new FileReader(csvFilePath))
-            .withType(Competitor.class)
-            .build()
-            .parse();
-    }
+
 }
