@@ -5,8 +5,8 @@ public class Athlete {
     private String sex;
     private String country;
     private String discipline;
-    private int year;
-    private int position;
+    private String year;
+    private String position;
     private String time;
     private String note;
 
@@ -42,19 +42,19 @@ public class Athlete {
         this.discipline = discipline;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
-    public int getPosition() {
+    public String getPosition() {
         return position;
     }
 
-    public void setPosition(int position) {
+    public void setPosition(String position) {
         this.position = position;
     }
 
