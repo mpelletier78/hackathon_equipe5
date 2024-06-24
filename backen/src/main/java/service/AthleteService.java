@@ -18,6 +18,7 @@ public class AthleteService {
 
     public Map<String, Map<String, List<NatModel>>> groupBySportRound(List<NatModel> nats) {
         return nats.stream()
+                .filter(nat -> nat.getSport() != null && nat.getRound() != null && nat.getMark() != null)
             .collect(Collectors.groupingBy(NatModel::getSport,
                 Collectors.groupingBy(NatModel::getRound,
                     Collectors.collectingAndThen(Collectors.toList(), list -> {
