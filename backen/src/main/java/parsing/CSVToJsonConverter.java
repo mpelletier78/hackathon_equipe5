@@ -45,7 +45,7 @@ public class CSVToJsonConverter {
         return athletes;
     }
 
-    public static List<NatModel> mapToNat(String csvFilePath) throws IOException {
+    public static List<NatModel> mapCsvToNat(String csvFilePath) throws IOException {
         List<NatModel> natList = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFilePath))) {
