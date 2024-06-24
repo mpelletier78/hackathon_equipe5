@@ -1,0 +1,20 @@
+<div class="flex flex-column flex-wrap align-items-center justify-content-center">
+  <h2>Classement par pays</h2>
+  <p-table [value]="data" class="w-6" sortMode="single" sortField="or" [sortOrder]="-1">
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let col of cols" [pSortableColumn]="col.field">
+          {{col.header}}
+          <p-sortIcon [field]="col.field"></p-sortIcon>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="cols">
+      <tr>
+        <td *ngFor="let col of cols">
+          {{rowData[col.field]}}
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
