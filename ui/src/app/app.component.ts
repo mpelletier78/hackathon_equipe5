@@ -1,14 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import {AccueilComponent} from "./accueil/accueil.component";
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, AccueilComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'ui';
+  sidebarVisible: boolean = false;
+  menuItems: MenuItem[] = [];
+
+  constructor() {
+    this.menuItems = [
+      { label: 'Accueil', icon: 'pi pi-home' },
+      { label: 'Resultats', icon: 'pi pi-info', url: 'results' },
+      { label: 'Athletes', icon: 'pi pi-info' },
+      { label: 'Pays', icon: 'pi pi-search' }
+    ];
+  }
 }

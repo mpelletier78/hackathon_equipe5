@@ -1,3 +1,23 @@
-<div align="center"> <img src="logo_jo.png"/></div>
+<p-toolbar>
+    <div class="p-toolbar-group-left">
+        <button (click)="sidebarVisible = true" class="p-button p-component p-button-icon-only">
+            <i class="pi pi-bars"></i>
+        </button>
+        <span class="p-toolbar-separator"></span>
+        <span class="p-toolbar-title">Titre de l'application</span>
+    </div>
+</p-toolbar>
+<p-sidebar [(visible)]="sidebarVisible" position="left">
+    <h1 style="font-weight:normal">Menu</h1><!-- app.component.html -->
+    <p-menu [model]="menuItems">
+    </p-menu>
+    <!-- Ajoutez d'autres boutons de menu ici -->
+</p-sidebar>
 
-<app-accueil/>
+<div class="p-grid">
+    <div class="p-col">
+        <!-- Contenu principal de l'application -->
+<div align="center"> <img src="logo_jo.png"/></div>
+<router-outlet></router-outlet>
+    </div>
+</div>
