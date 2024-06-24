@@ -4,6 +4,7 @@ import {TableModule} from "primeng/table";
 import {NgForOf, NgIf} from "@angular/common";
 import {DialogModule} from "primeng/dialog";
 import {HttpClient} from "@angular/common/http";
+import {ButtonDirective} from "primeng/button";
 
 @Component({
     selector: 'app-resultats',
@@ -12,7 +13,8 @@ import {HttpClient} from "@angular/common/http";
         TableModule,
         NgForOf,
         DialogModule,
-        NgIf
+        NgIf,
+        ButtonDirective
     ],
     templateUrl: './resultats.component.html',
     styleUrl: './resultats.component.css'
