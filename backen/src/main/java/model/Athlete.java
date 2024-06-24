@@ -6,7 +6,7 @@ public class Athlete {
     private String pays;
     private String discipline;
     private String year;
-    private String position;
+    private Double position;
     private String temps;
     private String note;
 
@@ -50,11 +50,11 @@ public class Athlete {
         this.year = year;
     }
 
-    public String getPosition() {
+    public Double getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(Double position) {
         this.position = position;
     }
 
