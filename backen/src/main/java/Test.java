@@ -1,12 +1,10 @@
-import model.Athlete;
 import model.NatModel;
 import parsing.CSVToJsonConverter;
-import service.AthleteService;
+import service.NatResultatServiceImpl;
 
 import java.io.IOException;
 import java.util.List;
 
-import static parsing.CSVToJsonConverter.mapHistoricToAthletes;
 import static parsing.CSVToJsonConverter.mapToNat;
 
 public class Test {
@@ -20,17 +18,17 @@ public class Test {
 //        System.out.println(converter.convertCompetitors(path));
 
         String path2 = "/Users/P002654/hackathon_equipe5/backen/src/main/resources/data_historique/NATATION_Finales_CM_2019_2024.csv";
-        String path3 = "/Users/C453079/repo/hackathon_equipe5/backen/src/main/resources/data_historique/Nat_D1.csv";
 //        System.out.println(converter.convertAthletes(path2));
 
-        AthleteService service = new AthleteService();
+        NatResultatServiceImpl service = new NatResultatServiceImpl();
 
+        String path3 = "/Users/C453079/repo/hackathon_equipe5/backen/src/main/resources/data_historique/Nat_D1.csv";
         List<NatModel> natModels = mapToNat(path3);
+        System.out.println(service.calculateResultat(natModels));
 
 
-        service.groupBySportRound(natModels);
+        service.calculateResultat(natModels);
 
-        System.out.println(service.groupBySportRound(natModels));
 
     }
 }
