@@ -1,33 +1,28 @@
 package com.hackathon.copilot;
 
+import model.NatModel;
+import model.ResultatNat;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import service.NatResultatServiceImpl;
 
+import java.io.IOException;
 import java.util.List;
+
+import static parsing.CSVToJsonConverter.mapToNat;
 
 @SpringBootApplication
 @RestController
 public class JoController {
 
-//    @GetMapping("/athletes")
-//    public List<Athlete> getAthletes() {
-//        return List.of(
-//                new Athlete("Jo", "Doe", 25),
-//                new Athlete("Jane", "Doe", 25)
-//        );
-//
-//    // add rest ressource to expose array of json competitor
-//        @GetMapping("/competitors")
-//                public List<Competitor> getCompetitors() {
-//                    return List.of(
-//                            new Competitor("Jo", "Doe", 25, "France"),
-//                            new Competitor("Jane", "Doe", 25, "France")
-//                    );
-//                }
-
-
+    // add rest ressource to expose array of json competitor
+    @GetMapping("/resultat")
+    public ResultatNat getCompetitors() throws IOException {
+        String path3 = "/Users/P002654/hackathon_equipe5/backen/src/main/resources/J1/Nat_D1.csv";
+        List<NatModel> natModels = mapToNat(path3);
+        return new NatResultatServiceImpl().calculateResultat(natModels);
+    }
 
 
 }
