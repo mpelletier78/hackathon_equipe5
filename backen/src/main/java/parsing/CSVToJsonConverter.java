@@ -45,7 +45,7 @@ public class CSVToJsonConverter {
         return athletes;
     }
 
-    public List<NatModel> mapToNat(String csvFilePath) throws IOException {
+    public static List<NatModel> mapToNat(String csvFilePath) throws IOException {
         List<NatModel> natList = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFilePath))) {
@@ -60,15 +60,29 @@ public class CSVToJsonConverter {
                 nat.setName(values[4]);
                 nat.setSex(values[5]);
                 nat.setNat(values[6]);
-                nat.setPlace(values[7]);
-                try {
-                    nat.setMark(Double.valueOf(values[8]));
-                } catch (NumberFormatException e) {
-                    nat.setMark(0.0);
+
+
+                if (values.length > 7) {
+                    try {
+                        nat.setPlace(values[7]);
+                    } catch (Exception e) {
+                        // print stack
+                        e.printStackTrace();
+                        nat.setPlace("");
+                    }
                 }
-                if (values.length > 9) {
-                    nat.setComments(values[9]);
+
+                if (values.length > 8) {
+                    try {
+                        nat.setMark(Double.valueOf(values[8]));
+                    } catch (Exception e) {
+                        nat.setMark(0.0);
+                    }
                 }
+                    if (values.length > 9) {
+                        nat.setComments(values[9]);
+                    }
+
                 natList.add(nat);
             }
         }
