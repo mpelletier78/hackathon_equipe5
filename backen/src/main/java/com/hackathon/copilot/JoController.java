@@ -19,7 +19,7 @@ public class JoController {
     // add rest ressource to expose array of json competitor
     @GetMapping("/resultat")
     public ResultatNat getCompetitors() throws IOException {
-        String path3 = "/Users/P002654/hackathon_equipe5/backen/src/main/resources/J1/Nat_D1.csv";
+        String path3 = "backen/src/main/resources/J1/Nat_D1.csv";
         List<NatModel> natModels = mapToNat(path3);
         return new NatResultatServiceImpl().calculateResultat(natModels);
     }
