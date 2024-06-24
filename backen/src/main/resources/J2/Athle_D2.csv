@@ -1,0 +1,188 @@
+,Unnamed: 0,HOUR,ROUND,SPORT,NAME,BIRTH DATE,NAT.,PLACE,MARK
+0,0,12:00:00,Final,Men's High Jump,Gianmarco TAMBERI,01 JUN 1992,ITA,1.0,2.36
+1,1,12:02:00,Final,Men's High Jump,JuVaughn HARRISON,30 APR 1999,USA,2.0,2.36
+2,2,12:04:00,Final,Men's High Jump,Mutaz Essa BARSHIM,24 JUN 1991,QAT,3.0,2.33
+3,3,12:06:00,Final,Men's High Jump,Luis Enrique ZAYAS,07 JUN 1997,CUB,4.0,2.33
+4,4,12:08:00,Final,Men's High Jump,Tobias POTYE,16 MAR 1995,GER,5.0,2.33
+5,5,12:10:00,Final,Men's High Jump,Sanghyeok WOO,23 APR 1996,KOR,6.0,2.29
+6,6,12:12:00,Final,Men's High Jump,Shelby MCEWEN,06 APR 1996,USA,7.0,2.29
+7,7,12:14:00,Final,Men's High Jump,Brandon STARC,24 NOV 1993,AUS,8.0,2.25
+8,8,12:16:00,Final,Men's High Jump,Ryoichi AKAMATSU,02 MAY 1995,JPN,8.0,2.25
+9,9,12:18:00,Final,Men's High Jump,Norbert KOBIELSKI,28 JAN 1997,POL,10.0,2.25
+10,10,12:20:00,Final,Men's High Jump,Andrii PROTSENKO,20 MAY 1988,UKR,11.0,2.25
+11,11,12:22:00,Final,Men's High Jump,Marco FASSINOTTI,29 APR 1989,ITA,12.0,2.2
+12,12,12:24:00,Final,Men's High Jump,Oleh DOROSHCHUK,04 JUL 2001,UKR,13.0,2.2
+13,13,13:06:00,Final,Women's High Jump,Yaroslava MAHUCHIKH,19 SEP 2001,UKR,1.0,2.01
+14,14,13:08:00,Final,Women's High Jump,Eleanor PATTERSON,22 MAY 1996,AUS,2.0,1.99
+15,15,13:10:00,Final,Women's High Jump,Nicola OLYSLAGERS,28 DEC 1996,AUS,3.0,1.99
+16,16,13:12:00,Final,Women's High Jump,Morgan LAKE,12 MAY 1997,GBR,4.0,1.97
+17,17,13:14:00,Final,Women's High Jump,Iryna GERASHCHENKO,10 MAR 1995,UKR,5.0,1.94
+18,18,13:16:00,Final,Women's High Jump,Lamara DISTIN,03 MAR 2000,JAM,5.0,1.94
+19,19,13:18:00,Final,Women's High Jump,Angelina TOPIĆ,26 JUL 2005,SRB,7.0,1.94
+20,20,13:20:00,Final,Women's High Jump,Christina HONSEL,07 JUL 1997,GER,8.0,1.94
+21,21,13:22:00,Final,Women's High Jump,Nadezhda DUBOVITSKAYA,12 MAR 1998,KAZ,9.0,1.9
+22,22,13:24:00,Final,Women's High Jump,Lia APOSTOLOVSKI,23 JUN 2000,SLO,9.0,1.9
+23,23,13:26:00,Final,Women's High Jump,Vashti CUNNINGHAM,18 JAN 1998,USA,11.0,1.9
+24,24,13:28:00,Final,Women's High Jump,Nawal MENIKER,09 DEC 1997,FRA,12.0,1.9
+25,25,13:30:00,Final,Women's High Jump,Ella JUNNILA,06 DEC 1998,FIN,13.0,1.9
+26,26,13:32:00,Final,Women's High Jump,Elena KULICHENKO,28 JUL 2002,CYP,13.0,1.9
+27,27,13:34:00,Final,Women's High Jump,Solène GICQUEL,01 DEC 1994,FRA,15.0,1.85
+28,28,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Noah LYLES,18 JUL 1997,USA,1.0,19.76
+29,29,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Alexander OGANDO,03 MAY 2000,DOM,2.0,20.02
+30,30,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Tarsis Gracious OROGOT,24 NOV 2002,UGA,3.0,20.26
+31,31,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Brendon RODNEY,09 APR 1992,CAN,4.0,20.27
+32,32,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Andrew HUDSON,14 DEC 1996,JAM,5.0,20.38
+33,33,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Luxolo ADAMS,01 AUG 1996,RSA,6.0,20.44
+34,34,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Shota IIZUKA,25 JUN 1991,JPN,7.0,20.54
+35,35,15:00:00,Semifinal - Heat 1,Men's 200 Metres,Ondřej MACÍK,12 JAN 2001,CZE,8.0,20.71
+36,36,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Erriyon KNIGHTON,29 JAN 2004,USA,1.0,19.98
+37,37,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Zharnel HUGHES,13 JUL 1995,GBR,2.0,20.02
+38,38,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Andre DE GRASSE,10 NOV 1994,CAN,3.0,20.1
+39,39,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Joseph FAHNBULLEH,11 SEP 2001,LBR,4.0,20.21
+40,40,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Towa UZAWA,25 NOV 2002,JPN,5.0,20.33
+41,41,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Rasheed DWYER,29 JAN 1989,JAM,6.0,20.49
+42,42,15:15:00,Semifinal - Heat 3,Men's 200 Metres,Shaun MASWANGANYI,01 FEB 2001,RSA,7.0,20.65
+43,43,15:15:00,Semifinal - Heat 3,Men's 200 Metres,William REAIS,04 MAY 1999,SUI,8.0,20.67
+44,44,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Kenneth BEDNAREK,14 OCT 1998,USA,1.0,19.96
+45,45,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Letsile TEBOGO,07 JUN 2003,BOT,2.0,19.97
+46,46,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Courtney LINDSEY,18 NOV 1998,USA,3.0,20.22
+47,47,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Sinesipho DAMBILE,02 MAR 2002,RSA,4.0,20.28
+48,48,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Renan CORREA,15 MAR 2004,BRA,5.0,20.43
+49,49,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Taymir BURNET,01 OCT 1992,NED,6.0,20.65
+50,50,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Alaba Olukunle AKINTOLA,14 SEP 2001,NGR,7.0,20.75
+51,51,15:30:00,Semifinal - Heat 2,Men's 200 Metres,Aaron BROWN,27 MAY 1992,CAN,,DQ
+52,52,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Gabrielle THOMAS,07 DEC 1996,USA,1.0,21.97
+53,53,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Dina ASHER-SMITH,04 DEC 1995,GBR,2.0,22.28
+54,54,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Natalliah WHYTE,09 AUG 1997,JAM,3.0,22.52
+55,55,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Tasa JIYA,16 SEP 1997,NED,4.0,22.67
+56,56,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Olivia FOTOPOULOU,20 DEC 1996,CYP,5.0,22.73
+57,57,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Dalia KADDARI,23 MAR 2001,ITA,6.0,22.75
+58,58,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Polyniki EMMANOUILIDOU,30 JUN 2003,GRE,7.0,23.15
+59,59,15:30:00,Semifinal - Heat 1,Women's 200 Metres,Maboundou KONÉ,16 MAY 1997,CIV,,DQ
+60,60,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Julien ALFRED,10 JUN 2001,LCA,1.0,22.17
+61,61,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Daryll NEITA,29 AUG 1996,GBR,2.0,22.21
+62,62,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Anthonique STRACHAN,22 AUG 1993,BAH,3.0,22.3
+63,63,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Kayla WHITE,14 SEP 1996,USA,4.0,22.34
+64,64,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Kevona DAVIS,20 DEC 2001,JAM,5.0,22.34
+65,65,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Jessika GBAI,29 DEC 1998,CIV,6.0,22.88
+66,66,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Adaejah HODGE,21 MAR 2006,IVB,7.0,22.96
+67,67,15:45:00,Semifinal - Heat 2,Women's 200 Metres,Krystsina TSIMANOUSKAYA,19 NOV 1996,POL,8.0,23.34
+68,68,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Shericka JACKSON,16 JUL 1994,JAM,1.0,22.0
+69,69,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Sha'Carri RICHARDSON,25 MAR 2000,USA,2.0,22.2
+70,70,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Marie-Josée TA LOU,18 NOV 1988,CIV,3.0,22.26
+71,71,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Bianca WILLIAMS,18 DEC 1993,GBR,4.0,22.45
+72,72,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Jaël BESTUÉ,24 SEP 2000,ESP,5.0,22.6
+73,73,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Veronica Shanti PEREIRA,20 SEP 1996,SGP,6.0,22.79
+74,74,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Favour OFILI,31 DEC 2002,NGR,7.0,22.86
+75,75,16:00:00,Semifinal - Heat 3,Women's 200 Metres,Gina BASS,03 MAY 1995,GAM,8.0,23.1
+76,76,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Noah LYLES,18 JUL 1997,USA,1.0,9.95
+77,77,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Ferdinand OMANYALA,02 JAN 1996,KEN,2.0,9.97
+78,78,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Usheoritse ITSEKIRI,31 JAN 1998,NGR,3.0,10.17
+79,79,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Samuele CECCARELLI,09 JAN 2000,ITA,4.0,10.26
+80,80,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Jerome BLAKE,18 AUG 1995,CAN,5.0,10.29
+81,81,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Emmanuel ESEME,17 AUG 1993,CMR,6.0,10.41
+82,82,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Jake DORAN,18 JUL 2000,AUS,7.0,10.48
+83,83,11:30:00,Round 1 - Heat 1,Men's 100 Metres,Kin Wa CHAN,05 SEP 2002,MAC,8.0,10.83
+84,84,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Noah LYLES,18 JUL 1997,USA,1.0,9.95
+85,85,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Ferdinand OMANYALA,02 JAN 1996,KEN,2.0,9.97
+86,86,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Usheoritse ITSEKIRI,31 JAN 1998,NGR,3.0,10.17
+87,87,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Samuele CECCARELLI,09 JAN 2000,ITA,4.0,10.26
+88,88,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Jerome BLAKE,18 AUG 1995,CAN,5.0,10.29
+89,89,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Emmanuel ESEME,17 AUG 1993,CMR,6.0,10.41
+90,90,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Jake DORAN,18 JUL 2000,AUS,7.0,10.48
+91,91,11:37:30,Round 1 - Heat 2,Men's 100 Metres,Kin Wa CHAN,05 SEP 2002,MAC,8.0,10.83
+92,92,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Raphael BOUJU,15 MAY 2002,NED,1.0,10.09
+93,93,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Eugene AMO-DADZIE,22 JUN 1992,GBR,2.0,10.1
+94,94,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Emmanuel MATADI,15 APR 1991,LBR,3.0,10.13
+95,95,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Benjamin RICHARDSON,19 DEC 2003,RSA,4.0,10.17
+96,96,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Cravont CHARLESTON,02 JAN 1998,USA,5.0,10.18
+97,97,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Felipe BARDI,08 OCT 1998,BRA,6.0,10.25
+98,98,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Ján VOLKO,02 NOV 1996,SVK,7.0,10.25
+99,99,11:45:00,Round 1 - Heat 3,Men's 100 Metres,Onisio PEREIA,25 FEB 2003,MOZ,8.0,11.09
+100,100,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Akani SIMBINE,21 SEP 1993,RSA,1.0,9.97
+101,101,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Christian COLEMAN,06 MAR 1996,USA,2.0,9.98
+102,102,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Emanuel ARCHIBALD,09 SEP 1994,GUY,3.0,10.2
+103,103,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Hiroki YANAGITA,25 JUL 2003,JPN,3.0,10.2
+104,104,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Julian WAGNER,18 MAR 1998,GER,5.0,10.31
+105,105,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Erik CARDOSO,03 MAR 2000,BRA,6.0,10.36
+106,106,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Markus FUCHS,14 NOV 1995,AUT,7.0,10.43
+107,107,11:52:30,Round 1 - Heat 7,Men's 100 Metres,Joseph GREEN,07 DEC 2001,GUM,8.0,10.91
+108,108,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Akani SIMBINE,21 SEP 1993,RSA,1.0,9.97
+109,109,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Christian COLEMAN,06 MAR 1996,USA,2.0,9.98
+110,110,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Emanuel ARCHIBALD,09 SEP 1994,GUY,3.0,10.2
+111,111,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Hiroki YANAGITA,25 JUL 2003,JPN,3.0,10.2
+112,112,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Julian WAGNER,18 MAR 1998,GER,5.0,10.31
+113,113,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Erik CARDOSO,03 MAR 2000,BRA,6.0,10.36
+114,114,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Markus FUCHS,14 NOV 1995,AUT,7.0,10.43
+115,115,12:00:00,Round 1 - Heat 6,Men's 100 Metres,Joseph GREEN,07 DEC 2001,GUM,8.0,10.91
+116,116,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Letsile TEBOGO,07 JUN 2003,BOT,1.0,10.11
+117,117,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Rohan BROWNING,31 DEC 1997,AUS,2.0,10.11
+118,118,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Reece PRESCOD,29 FEB 1996,GBR,3.0,10.14
+119,119,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Shaun MASWANGANYI,01 FEB 2001,RSA,4.0,10.21
+120,120,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Ryuichiro SAKAI,14 MAR 1998,JPN,5.0,10.22
+121,121,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Cejhae GREENE,06 OCT 1995,ANT,6.0,10.23
+122,122,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Muhd Azeem FAHMI,29 APR 2004,MAS,7.0,10.26
+123,123,12:07:30,Round 1 - Heat 4,Men's 100 Metres,Bence BOROS,24 DEC 1996,HUN,8.0,10.7
+124,124,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Oblique SEVILLE,16 MAR 2001,JAM,1.0,9.86
+125,125,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Fred KERLEY,07 MAY 1995,USA,2.0,9.99
+126,126,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Henrik LARSSON,30 SEP 1999,SWE,3.0,10.16
+127,127,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Mouhamadou FALL,25 FEB 1992,FRA,4.0,10.19
+128,128,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Ebrahima CAMARA,18 SEP 1996,GAM,5.0,10.2
+129,129,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Paulo André CAMILO,20 AUG 1998,BRA,6.0,10.25
+130,130,12:15:00,Round 1 - Heat 5,Men's 100 Metres,Brandon JONES,19 JUL 1987,BIZ,7.0,10.95
+131,131,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Shericka JACKSON,16 JUL 1994,JAM,1.0,11.06
+132,132,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Michelle-Lee AHYE,10 APR 1992,TTO,2.0,11.16
+133,133,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Gina LÜCKENKEMPER,21 NOV 1996,GER,3.0,11.21
+134,134,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Rosemary CHUKWUMA,05 DEC 2001,NGR,4.0,11.24
+135,135,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Olivia FOTOPOULOU,20 DEC 1996,CYP,5.0,11.38
+136,136,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Vitoria Cristina ROSA,12 JAN 1996,BRA,6.0,11.57
+137,137,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Natacha NGOYE,15 AUG 1993,CGO,7.0,11.6
+138,138,12:15:00,Round 1 - Heat 4,Women's 100 Metres,Kesaia BOLETAKANAKANDAVU,15 JUN 2004,FIJ,8.0,12.46
+139,139,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Sha'Carri RICHARDSON,25 MAR 2000,USA,1.0,10.92
+140,140,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Natasha MORRISON,17 NOV 1992,JAM,2.0,11.02
+141,141,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Zaynab DOSSO,12 SEP 1999,ITA,3.0,11.14
+142,142,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Maboundou KONÉ,16 MAY 1997,CIV,4.0,11.26
+143,143,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Krystsina TSIMANOUSKAYA,19 NOV 1996,POL,5.0,11.32
+144,144,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Torrie LEWIS,08 JAN 2005,AUS,6.0,11.45
+145,145,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Sydney FRANCISCO,24 MAY 2005,PLW,7.0,13.48
+146,146,12:27:30,Round 1 - Heat 5,Women's 100 Metres,Imani LANSIQUOT,17 DEC 1997,GBR,8.0,DQ
+147,147,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Shelly-Ann FRASER-PRYCE,27 DEC 1986,JAM,1.0,11.01
+148,148,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Mujinga KAMBUNDJI,17 JUN 1992,SUI,2.0,11.08
+149,149,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Zoe HOBBS,11 SEP 1997,NZL,3.0,11.14
+150,150,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Lorène Dorcas BAZOLO,04 MAY 1983,POR,4.0,11.29
+151,151,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Khamica BINGHAM,15 JUN 1994,CAN,5.0,11.29
+152,152,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Rebekka HAASE,02 JAN 1993,GER,6.0,11.43
+153,153,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Arisa KIMISHIMA,23 DEC 1995,JPN,7.0,11.73
+154,154,12:40:00,Round 1 - Heat 7,Women's 100 Metres,Yara Ahmed ABULJADAYEL,29 SEP 1998,KSA,8.0,13.54
+155,155,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Marie-Josée TA LOU,18 NOV 1988,CIV,1.0,11.08
+156,156,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Shashalee FORBES,10 MAY 1996,JAM,2.0,11.12
+157,157,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Boglárka TAKÁCS,28 AUG 2001,HUN,3.0,11.18
+158,158,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Patrizia VAN DER WEKEN,12 NOV 1999,LUX,4.0,11.38
+159,159,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Bree MASTERS,24 JUN 1995,AUS,5.0,11.43
+160,160,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Magdalena STEFANOWICZ,21 SEP 2000,POL,6.0,11.43
+161,161,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Arialis GANDULLA,22 JUN 1995,POR,7.0,11.47
+162,162,12:52:30,Round 1 - Heat 6,Women's 100 Metres,Jovita ARUNIA,19 APR 2002,SOL,8.0,13.2
+163,163,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Brittany BROWN,18 APR 1995,USA,1.0,11.01
+164,164,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Dina ASHER-SMITH,04 DEC 1995,GBR,2.0,11.04
+165,165,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Jaël BESTUÉ,24 SEP 2000,ESP,3.0,11.28
+166,166,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Veronica Shanti PEREIRA,20 SEP 1996,SGP,4.0,11.33
+167,167,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Halle HAZZARD,04 FEB 1999,GRN,5.0,11.34
+168,168,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Salomé KORA,08 JUN 1994,SUI,6.0,12.18
+169,169,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Chloe DAVID,03 JUN 2005,VAN,7.0,12.88
+170,170,13:05:00,Round 1 - Heat 2,Women's 100 Metres,Yunisleidy GARCÍA ABREU,11 AUG 1999,CUB,8.0,DQ
+171,171,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Ewa SWOBODA,26 JUL 1997,POL,1.0,10.98
+172,172,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Tamari DAVIS,15 FEB 2003,USA,2.0,11.06
+173,173,13:17:30,Round 1 - Heat 3,Women's 100 Metres,N'Ketia SEEDO,07 JUN 2003,NED,3.0,11.11
+174,174,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Rani ROSIUS,25 APR 2000,BEL,4.0,11.18
+175,175,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Murielle AHOURÉ-DEMPS,23 AUG 1987,CIV,5.0,11.29
+176,176,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Leah BERTRAND,26 JUL 2002,TTO,6.0,11.32
+177,177,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Mudhawi ALSHAMMARI,25 APR 1998,KUW,7.0,11.93
+178,178,13:17:30,Round 1 - Heat 3,Women's 100 Metres,Silina PHA APHAY,29 MAR 1996,LAO,8.0,12.67
+179,179,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Julien ALFRED,10 JUN 2001,LCA,1.0,10.99
+180,180,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Daryll NEITA,29 AUG 1996,GBR,2.0,11.03
+181,181,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Gina BASS,03 MAY 1995,GAM,3.0,11.1
+182,182,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Géraldine FREY,19 JUN 1997,SUI,4.0,11.26
+183,183,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Delphine NKANSA,21 SEP 2001,BEL,5.0,11.4
+184,184,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Ángela Gabriela TENORIO,27 JAN 1996,ECU,6.0,11.52
+185,185,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Farzaneh FASIHI,03 JAN 1993,IRI,7.0,11.63
+186,186,13:30:00,Round 1 - Heat 1,Women's 100 Metres,Zarinae SAPONG,27 JAN 1998,NMI,8.0,13.04

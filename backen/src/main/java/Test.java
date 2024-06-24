@@ -5,7 +5,7 @@ import service.NatResultatServiceImpl;
 import java.io.IOException;
 import java.util.List;
 
-import static parsing.CSVToJsonConverter.mapToNat;
+import static parsing.CSVToJsonConverter.mapCsvToNat;
 
 public class Test {
 
@@ -23,7 +23,7 @@ public class Test {
         NatResultatServiceImpl service = new NatResultatServiceImpl();
 
         String path3 = "/Users/C453079/repo/hackathon_equipe5/backen/src/main/resources/data_historique/Nat_D1.csv";
-        List<NatModel> natModels = mapToNat(path3);
+        List<NatModel> natModels = mapCsvToNat(path3);
         System.out.println(service.calculateResultat(natModels));
 
 
