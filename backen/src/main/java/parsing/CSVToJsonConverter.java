@@ -61,7 +61,11 @@ public class CSVToJsonConverter {
                 nat.setSex(values[5]);
                 nat.setNat(values[6]);
                 nat.setPlace(values[7]);
-                nat.setMark(Double.valueOf(values[8]));
+                try {
+                    nat.setMark(Double.valueOf(values[8]));
+                } catch (NumberFormatException e) {
+                    nat.setMark(0.0);
+                }
                 if (values.length > 9) {
                     nat.setComments(values[9]);
                 }
