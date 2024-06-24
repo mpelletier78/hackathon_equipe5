@@ -1,6 +1,9 @@
 <p-toolbar>
   <div class="p-toolbar-group-left">
-    <button (click)="sidebarVisible = true" class="p-button p-component p-button-icon-only">
+    <button
+      (click)="sidebarVisible = true"
+      class="p-button p-component p-button-icon-only"
+    >
       <i class="pi pi-bars"></i>
     </button>
     <span class="p-toolbar-separator"></span>
@@ -8,16 +11,36 @@
   </div>
 </p-toolbar>
 <p-sidebar [(visible)]="sidebarVisible" position="left">
-  <h1 style="font-weight:normal">Menu</h1><!-- app.component.html -->
-  <p-menu [model]="menuItems">
+  <!-- app.component.html -->
+  <p-menu [model]="menuItems" styleClass="w-full">
+    <ng-template pTemplate="start">
+      <span class="inline-flex align-items-center gap-1 px-2 py-2">
+        <h1 style="font-weight: normal">JO Paris 2024</h1>
+      </span>
+    </ng-template>
+    <ng-template pTemplate="item" let-item>
+      <a
+        pRipple
+        class="flex align-items-center p-menuitem-link"
+        [routerLink]="item.routerLink"
+      >
+        <span [class]="item.icon"></span>
+        <span class="ml-2">{{ item.label }}</span>
+        <span
+          *ngIf="item.shortcut"
+          class="ml-auto border-1 surface-border border-round surface-100 text-xs p-1"
+        >
+          {{ item.shortcut }}
+        </span>
+      </a>
+    </ng-template>
   </p-menu>
-  <!-- Ajoutez d'autres boutons de menu ici -->
 </p-sidebar>
 
 <div class="p-grid">
   <div class="p-col">
     <!-- Contenu principal de l'application -->
-    <div align="center"><img src="logo_jo.png"/></div>
+    <div align="center"><img src="logo_jo.png" /></div>
     <router-outlet></router-outlet>
   </div>
 </div>

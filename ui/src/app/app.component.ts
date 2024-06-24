@@ -12,10 +12,10 @@ export class AppComponent {
 
   constructor() {
     this.menuItems = [
-      { label: 'Accueil', icon: 'pi pi-home' },
-      { label: 'Resultats', icon: 'pi pi-wave-pulse', routerLink: '/resultats'},
-      { label: 'Athletes', icon: 'pi pi-users' },
-      { label: 'Pays', icon: 'pi pi-search' }
+      { label: 'Accueil', icon: 'pi pi-home', routerLink: '/' },
+      { label: 'Resultats', icon: 'pi pi-wave-pulse', routerLink: '/resultats' },
+      { label: 'Athletes', icon: 'pi pi-users', routerLink: '/athletes' },
+      { label: 'Pays', icon: 'pi pi-search', routerLink: '/pays' },
     ];
   }
 }
