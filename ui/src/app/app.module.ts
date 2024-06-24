@@ -7,11 +7,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AccueilComponent } from './accueil/accueil.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuModule } from 'primeng/menu';
+import {ResultatsComponent} from "./resultats/resultats.component";
 
 // Définition des routes
 const routes: Routes = [
     { path: '', component: AccueilComponent }, // Route pour la page d'accueil
-    { path: 'results', component: ResultsComponent } // Route pour la page d'accueil
+    { path: 'resultats', component: ResultatsComponent } // Route pour la page d'accueil
     // Ajoutez d'autres routes ici
 ];
 
