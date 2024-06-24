@@ -24,17 +24,17 @@
       <table>
           <thead>
           <tr>
+              <th>Place</th>
               <th>Nom</th>
               <th>Nationalite</th>
-              <th>Place</th>
               <th>Temps</th>
           </tr>
           </thead>
           <tbody>
           <tr *ngFor="let item of selectedSport.classement || []">
+              <td>{{item.position}}</td>
               <td>{{item.nom}}</td>
               <td>{{item.nationalite}}</td>
-              <td>{{item.place}}</td>
               <td>{{item.temps}}</td>
           </tr>
           </tbody>

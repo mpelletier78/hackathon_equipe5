@@ -33,7 +33,7 @@ export class ResultatsComponent implements OnInit {
             data = data['resultat'];
 
             for (let round of Object.keys(data[`50m nage libre`])) {
-                var players = data[`50m nage libre`][round].sort((a, b) => parseInt(a.place) - parseInt(b.place));
+                var players = data[`50m nage libre`][round].sort((a, b) => parseInt(a.temps) - parseInt(b.temps));
 
                 this.sports.push({
                     name: '50m nage libre',
@@ -41,11 +41,12 @@ export class ResultatsComponent implements OnInit {
                     first: players[0].name,
                     second: players[1].name,
                     third: players[2].name,
-                    classement: players.map(obj => ({
+                    classement: players.map((obj, index) => ({
                         nom: obj.name,
                         nationalite: obj.nat,
                         place: obj.place,
-                        temps: obj.mark
+                        temps: obj.mark,
+                        position: index + 1
                     }))
                 });
             }
@@ -99,4 +100,5 @@ export interface Classement {
   nationalite: string;
   place: number;
   temps: number;
+  position: number;
 }
