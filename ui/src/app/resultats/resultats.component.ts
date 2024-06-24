@@ -69,9 +69,9 @@ export class ResultatsComponent {
     {
       name: 'Men\'s 200 Metres',
       round: 'Round 1 - Heat 5',
-      first: 'Usain Bolt',
-      second: 'Justin Gatlin',
-      third: 'Andre De Grasse',
+      first: 'Athlete One',
+      second: 'Athlete Two',
+      third: 'Athlete Three',
       classement: [
         {
           nom: 'Athlete One',
@@ -106,7 +106,7 @@ export class ResultatsComponent {
       ]
     },
     {
-      name: 'Men\'s 200 Metres', round: 'Final', first: 'Usain Bolt', second: 'Justin Gatlin', third: 'Andre De Grasse',
+      name: 'Men\'s 200 Metres', round: 'Final', first: 'Runner One', second: 'Runner Two', third: 'Runner Three',
       classement: [
         {
           nom: 'Runner One',
@@ -149,6 +149,10 @@ export class ResultatsComponent {
     {field: 'second', header: 'Second'},
     {field: 'third', header: 'Third'},
   ];
+
+  hide() {
+    this.selectedSport = undefined
+  }
 }
 
 export interface Sport {
