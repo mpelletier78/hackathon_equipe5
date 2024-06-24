@@ -36,7 +36,7 @@ public class CSVToJsonConverter {
                 athlete.setPays(values[2]);
                 athlete.setDiscipline(values[3]);
                 athlete.setYear(values[4]);
-                athlete.setPosition(values[5]);
+                athlete.setPosition(Double.valueOf(values[5]));
                 athlete.setTemps(values[6]);
                 if (values.length > 7) {
                     athlete.setNote(values[7]);
