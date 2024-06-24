@@ -1,7 +1,7 @@
 package model;
 
 public class Competitor {
-    private float place;
+    private String place;
     private String name;
     private String birthDate;
     private String nat;
@@ -9,11 +9,11 @@ public class Competitor {
     private String competition;
     private String race;
 
-    public float getPlace() {
+    public String getPlace() {
         return place;
     }
 
-    public void setPlace(float place) {
+    public void setPlace(String place) {
         this.place = place;
     }
 
@@ -65,7 +65,4 @@ public class Competitor {
         this.race = race;
     }
 
-    public int getPlaceAsInt() {
-        return (int) place;
-    }
 }

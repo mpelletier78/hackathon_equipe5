@@ -2,12 +2,12 @@ package model;
 
 public class Athlete {
     private String athlete;
-    private String sex;
-    private String country;
+    private String sexe;
+    private String pays;
     private String discipline;
-    private int year;
-    private int position;
-    private String time;
+    private String year;
+    private String position;
+    private String temps;
     private String note;
 
     public String getAthlete() {
@@ -18,20 +18,20 @@ public class Athlete {
         this.athlete = athlete;
     }
 
-    public String getSex() {
-        return sex;
+    public String getSexe() {
+        return sexe;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setSexe(String sexe) {
+        this.sexe = sexe;
     }
 
-    public String getCountry() {
-        return country;
+    public String getPays() {
+        return pays;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setPays(String pays) {
+        this.pays = pays;
     }
 
     public String getDiscipline() {
@@ -42,28 +42,28 @@ public class Athlete {
         this.discipline = discipline;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
-    public int getPosition() {
+    public String getPosition() {
         return position;
     }
 
-    public void setPosition(int position) {
+    public void setPosition(String position) {
         this.position = position;
     }
 
-    public String getTime() {
-        return time;
+    public String getTemps() {
+        return temps;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setTemps(String temps) {
+        this.temps = temps;
     }
 
     public String getNote() {
