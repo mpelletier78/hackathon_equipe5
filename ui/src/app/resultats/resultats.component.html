@@ -19,9 +19,12 @@
 </p-table>
 
 <p-dialog header="Classement" [visible]="selectedSport !== undefined" [modal]="true" [style]="{width: '50vw'}" (onHide)="selectedSport = undefined" [closeOnEscape]="true">
-  <ng-container>
-    <div *ngFor="let item of selectedSport?.classement || []">
+  <ng-container *ngIf="selectedSport">
+    <div *ngFor="let item of selectedSport.classement || []">
       {{item.nom}} - {{item.nationalite}} - {{item.place}} - {{item.temps}}
     </div>
   </ng-container>
+  <p-footer>
+    <button type="button" pButton icon="pi pi-times" (click)="selectedSport = undefined" label="Close"></button>
+  </p-footer>
 </p-dialog>
