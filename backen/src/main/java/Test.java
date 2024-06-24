@@ -5,7 +5,7 @@ import service.AthleteService;
 import java.io.IOException;
 import java.util.List;
 
-import static parsing.CSVToJsonConverter.mapToAthletes;
+import static parsing.CSVToJsonConverter.mapHistoricToAthletes;
 
 public class Test {
 
@@ -21,7 +21,7 @@ public class Test {
 //        System.out.println(converter.convertAthletes(path2));
 
         AthleteService service = new AthleteService();
-        List<Athlete> athletes = mapToAthletes(path2);
+        List<Athlete> athletes = mapHistoricToAthletes(path2);
         System.out.println(service.groupByCountry(athletes));
 
     }
