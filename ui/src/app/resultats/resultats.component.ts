@@ -28,7 +28,13 @@ export class ResultatsComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.http.get<Epreuve[]>('http://localhost:8080/resultat').subscribe(data => {
+        this.fetchData('http://localhost:8080/resultat-par-jour/J1');
+        setTimeout(() => this.fetchData('http://localhost:8080/resultat-par-jour/J2'), 20_000);
+        setTimeout(() => this.fetchData('http://localhost:8080/resultat-par-jour/J3'), 40_000);
+    }
+
+    private fetchData(url: string) {
+        this.http.get<Epreuve[]>(url).subscribe(data => {
             // @ts-ignore
             data = data['resultat'];
 
